@@ -8,7 +8,6 @@ import Type from "./Type";
 // import Techstack from "../About/Techstack";
 // import Github from "../About/Github";
 import {
-  AiFillGithub,
   // AiOutlineTwitter, // Jika tidak ada Twitter, hapus
   // AiFillInstagram,  // Jika tidak ada Instagram, hapus
 } from "react-icons/ai";
