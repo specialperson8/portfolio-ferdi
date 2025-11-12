@@ -1,76 +1,89 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Portofolio Pribadi - Moh. Ferdi Andriansyah
 
-<br/>
+[![Deploy with Vercel](https://vercel.com/button)](https://<NAMA-PROYEK-ANDA>.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<center>
+Ini adalah repositori untuk portofolio pribadi saya, yang menampilkan proyek, keahlian, dan pengalaman saya di bidang pengembangan web dan IoT. Website ini dibangun menggunakan **React.js** dan dideploy di Vercel.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+Dibangun berdasarkan template portofolio dari [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio) dan disesuaikan sepenuhnya dengan data dan proyek pribadi saya.
 
-</center>
+### ✨ [Lihat Versi Live di Sini!](https://<NAMA-PROYEK-ANDA>.vercel.app/)
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+---
 
-## TL;DR
+## 📸 Tampilan Website
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+<p align="center">
+  <img src="./screenshot-portfolio.png" alt="Tampilan Portofolio" width="800"/>
+</p>
 
-## Built With
+*(**Catatan untuk Anda:** Ambil screenshot halaman utama portofolio Anda, beri nama `screenshot-portfolio.png`, dan letakkan di folder utama proyek agar gambar ini muncul).*
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+---
 
-This project was built using these technologies.
+## 🚀 Fitur Utama
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **Desain Responsif:** Tampilan yang optimal di berbagai perangkat, mulai dari desktop hingga mobile.
+- **Navigasi Berbasis Komponen:** Terstruktur dengan baik menggunakan komponen React untuk setiap bagian (Home, About, Projects, Resume).
+- **Elemen Interaktif:** Dilengkapi dengan efek ketik (typewriter), latar belakang partikel, dan animasi halus.
+- **Pratinjau CV:** Pengguna dapat melihat pratinjau CV langsung di halaman web sebelum mengunduhnya.
+- **Kalender Kontribusi GitHub:** Menampilkan aktivitas coding saya secara dinamis dari profil GitHub.
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## 🛠️ Teknologi yang Digunakan
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+Proyek ini dibangun menggunakan teknologi modern untuk pengembangan frontend:
 
-**📱 Fully Responsive**
+- **[React.js](https://reactjs.org/):** Library JavaScript untuk membangun antarmuka pengguna.
+- **[React Bootstrap](https://react-bootstrap.github.io/):** Komponen UI siap pakai untuk React.
+- **[React Router](https://reactrouter.com/):** Untuk routing halaman.
+- **[React PDF](https://github.com/wojtekmaj/react-pdf):** Untuk menampilkan file PDF di dalam aplikasi React.
+- **[React Icons](https://react-icons.github.io/react-icons/):** Kumpulan ikon populer untuk proyek React.
+- **[Typewriter Effect](https://www.npmjs.com/package/typewriter-effect):** Untuk animasi teks ketik di halaman utama.
+- **[CSS3:** Untuk styling kustom.
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## ⚙️ Menjalankan Proyek Secara Lokal
 
-## 🛠 Installation and Setup Instructions
+Jika Anda ingin menjalankan proyek ini di mesin lokal Anda, ikuti langkah-langkah berikut:
 
-1. Installation: `npm install`
+1.  **Clone Repositori**
+    ```bash
+    git clone https://github.com/<USERNAME_GITHUB_ANDA>/<NAMA_REPO_ANDA>.git
+    ```
 
-2. In the project directory, you can run: `npm start`
+2.  **Masuk ke Direktori Proyek**
+    ```bash
+    cd <NAMA_REPO_ANDA>
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+3.  **Install Dependensi**
+    ```bash
+    npm install
+    ```
 
-## Usage Instructions
+4.  **Jalankan Aplikasi**
+    ```bash
+    npm start
+    ```
+    Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+---
 
-### Show your support
+## 🌐 Deployment
 
-Give a ⭐ if you like this website!
+Proyek ini di-deploy menggunakan **Vercel**. Setiap *push* ke branch `main` akan secara otomatis memicu proses build dan deploy baru, memastikan versi live selalu yang terbaru.
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+---
+
+## 🙏 Ucapan Terima Kasih
+
+Portofolio ini tidak akan ada tanpa template luar biasa yang dibuat oleh **Soumyajit Behera**. Terima kasih telah membuat template yang mudah disesuaikan dan modern.
+
+- **[Link ke Repositori Asli](https://github.com/soumyajit4419/Portfolio)**
+
+---
+
+Jangan ragu untuk memberikan bintang ⭐ jika Anda merasa proyek ini bermanfaat!
