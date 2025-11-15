@@ -13,7 +13,7 @@ function Footer() {
       <Row>
         {/* PERUBAHAN DI SINI */}
         <Col md="4" className="footer-copywright">
-          <h3>Dirancang dan Dikembangkan oleh Moh. Ferdi Andriansyah</h3>
+          <h3>Moh. Ferdi Andriansyah</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} MFA</h3>
