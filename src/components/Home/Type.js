@@ -6,7 +6,7 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Student at Politeknik Negeri Jember", // Peran utama dari LinkedIn
+          "Fresh Graduate Informatics Engineering", // Peran utama dari LinkedIn
           "Web Development",                    // Keahlian utama
           "Laravel Framework",                  // Framework spesifik
           "IoT Enthusiast",                     // Minat dari LinkedIn

@@ -11,28 +11,48 @@ function AboutCard() {
             Halo semua! Saya <span className="purple">Moh. Ferdi Andriansyah</span>{" "}
             dari <span className="purple">Banyuwangi, Jawa Timur, Indonesia</span>.
             <br />
-            Saat ini saya adalah <span className="purple">Mahasiswa Politeknik Negeri Jember</span>.
+            Saya merupakan Fresh Graduate <span className="purple">Program Studi Teknik Informatika – Politeknik Negeri Jember.</span>.
+
             <br />
-            Saya sedang menempuh pendidikan di <span className="purple">Program Studi Teknik Informatika</span> dari <span className="purple">Politeknik Negeri Jember</span>.
             <br />
-            <br />
-            Di luar kegiatan perkuliahan dan coding, saya suka terlibat dalam aktivitas yang membuat saya kreatif dan terinspirasi:
+            Saya memiliki ketertarikan kuat pada dunia teknologi, terutama di bidang:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Belajar hal baru dan mengikuti perkembangan teknologi
+              <ImPointRight /> Web Development (khususnya Laravel)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Kolaborasi dalam Tim
+              <ImPointRight /> IoT & Sensor Monitoring
             </li>
             <li className="about-activity">
-              <ImPointRight /> Mengeksplorasi ide-ide desain
+              <ImPointRight /> UI/UX & Desain Digital
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Senang belajar hal baru dan suka bekerja sama dalam tim serta memiliki aspirasi untuk bekerja dalam bidang IT."{" "}
+          <p style={{ textAlign: "justify" }}>
+            Selama masa studi, saya terbiasa bekerja dalam tim,
+            memecahkan masalah secara kreatif,dan mengembangkan berbagai proyek mandiri maupun kolaborasi. Saya juga senang mempelajari hal-hal baru untuk meningkatkan kemampuan teknis dan kreativitas saya.
+
+            <br />
+            <br />
+          Di luar coding, saya menikmati aktivitas yang mendorong saya untuk terus berkembang, seperti:
+          </p>
+
+           <ul>
+            <li className="about-activity">
+              <ImPointRight /> Mengeksplorasi ide-ide desain
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Berkolaborasi dengan teman satu tim
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Mengikuti perkembangan teknologi terbaru
+            </li>
+          </ul>
+
+          <p style={{ textAlign: "justify" }}>
+           Sebagai seorang fresh graduate, saya siap untuk belajar, bertumbuh, dan memberikan kontribusi terbaik dalam dunia profesional.
           </p>
           <footer className="blockquote-footer">Moh. Ferdi</footer>
         </blockquote>

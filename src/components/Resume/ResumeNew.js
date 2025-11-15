@@ -8,16 +8,17 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
+// (2) DEKLARASIKAN LINK KE PDF DI public/ UNTUK TOMBOL DOWNLOAD
+const resumeLink = "/cv-ferdi.pdf";
+
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  // State baru untuk menyimpan jumlah halaman
   const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
-  // Fungsi yang akan dijalankan ketika PDF berhasil dimuat
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
@@ -29,7 +30,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeLink} // <-- Gunakan resumeLink dari public/
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -39,19 +40,19 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          {/* Menambahkan prop onLoadSuccess dan melakukan loop untuk render semua halaman */}
           <Document
-            file={pdf}
-            className="d-flex flex-column align-items-center" // Mengubah menjadi flex-column
+            file={pdf} // <-- Gunakan 'pdf' hasil import dari src/Assets/
+            className="d-flex flex-column align-items-center"
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            {/* Loop sebanyak jumlah halaman (numPages) */}
             {Array.from(new Array(numPages), (el, index) => (
               <Page
                 key={`page_${index + 1}`}
                 pageNumber={index + 1}
                 scale={width > 786 ? 1.7 : 0.6}
-                className="mb-2" // Menambahkan margin bawah antar halaman
+                className="mb-2"
+                renderTextLayer={false}
+                renderAnnotationLayer={false}
               />
             ))}
           </Document>
@@ -60,7 +61,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeLink} // <-- Gunakan resumeLink dari public/
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
