@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg"; // Pastikan avatar.svg adalah gambar yang relevan atau ganti jika perlu
+import myImg from "../../Assets/sembur-avatar.png"; // Pastikan avatar.svg adalah gambar yang relevan atau ganti jika perlu
 import Tilt from "react-parallax-tilt";
 
 function Home2() {

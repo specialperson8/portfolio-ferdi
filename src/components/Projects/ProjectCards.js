@@ -20,7 +20,7 @@ function ProjectCards(props) {
         </Button>
         {"\n"}
         {"\n"}
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        <Button variant="primary" href="https://www.linkedin.com/in/ferdiandrians/" target="_blank">
           <BsLinkedin /> &nbsp;
           {props.isBlog ? "Blog" : "LinkedIn"}
         </Button>

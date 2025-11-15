@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg"; // Pastikan home-main.svg adalah gambar yang relevan
+import homeLogo from "../../Assets/ferdi-hero.png"; // Pastikan home-main.svg adalah gambar yang relevan
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";

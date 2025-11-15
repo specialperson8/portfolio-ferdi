@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  // AiOutlineTwitter, // Hapus jika tidak digunakan
-  // AiFillInstagram, // Hapus jika tidak digunakan
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -25,7 +23,7 @@ function Footer() {
             {/* Pastikan link-link ini sudah benar */}
             <li className="social-icons">
               <a
-                href="LINK_GITHUB_ANDA" // Ganti dengan link GitHub Anda
+                href="https://github.com/Ferdiandrians"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

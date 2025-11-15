@@ -109,7 +109,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio" // Ganti dengan link repo portofolio Anda
+                href="https://github.com/Ferdiandrians" // Ganti dengan link repo portofolio Anda
                 target="_blank"
                 className="fork-btn-inner"
               >
